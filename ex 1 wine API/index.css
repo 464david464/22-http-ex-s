@@ -37,7 +37,7 @@ h3{
 p{
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:space-evenly;
     align-items: center;
     color: rgb(226, 143, 41);
     line-height: 0.8;

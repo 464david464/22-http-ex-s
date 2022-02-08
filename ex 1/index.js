@@ -21,9 +21,14 @@ function buildWinePage(wineObject) {
     const location = document.createElement("p");
     location.innerText =  wineObject.location;
 
-    const wineImages = document.createElement('img')
+    const locationImage = document.createElement('img');
+    locationImage.classList.add('locImg')
+    locationImage.src = 'location.png'
+
+    const wineImages = document.createElement('img');
     wineImages.src = wineObject.image;
 
+    location.appendChild(locationImage)
     div1.appendChild(wineName);
     div1.appendChild(wineRating);
     div1.appendChild(location);

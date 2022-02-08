@@ -35,14 +35,18 @@ h3{
     margin: 10px 0px;
 }
 p{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
     color: rgb(226, 143, 41);
     line-height: 0.8;
 }
 img{
     width: 50px;
     
-    
 }
+
 #myFIrstDiv{
     margin: auto;
     width: 60vw;
@@ -80,4 +84,7 @@ img{
     justify-content: center;
 
 
+}
+p img{
+    width: 20px;
 }

@@ -1,0 +1,7 @@
+{
+    "firstName": "david",
+    "lastName": "weinstein",
+    "age": 19,
+    "path": ["dog", "cat"],
+    "isMerid": false,
+}
